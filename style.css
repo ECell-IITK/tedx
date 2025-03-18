@@ -1,0 +1,22 @@
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; /* Push items to the right */
+  gap: 20px; /* Add spacing between items */
+  position: absolute;
+  top: 10px; /* Adjust top position */
+  right: 10px; /* Adjust right position */
+}
+.buy-tickets {
+  background-color: #ff5733; /* Example color */
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
+.buy-tickets a {
+  text-decoration: none;
+  color: white;
+}
