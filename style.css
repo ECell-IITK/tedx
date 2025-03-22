@@ -11,7 +11,7 @@ body {
 }
 
 .home {
-  background-image: url('/tedxback.png');
+  background-image: url('tedxback.png');
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
