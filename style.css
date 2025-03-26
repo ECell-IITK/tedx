@@ -19,9 +19,8 @@ body {
 }
 @media (max-width:1780px){
   .home{
-    
     background-size: cover;
-    background-position: center;
+    background-position: center right;
   }
 }
 .about {
