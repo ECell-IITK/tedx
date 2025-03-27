@@ -11,7 +11,7 @@ body {
 }
 
 .home {
-  background-image: url('tedxback.png');
+  background-image: url('web.png');
   background-size: 100%;
   background-position: center 0px 450px;
   background-repeat: no-repeat;
@@ -351,16 +351,17 @@ body {
   background-size: cover;
   background-position: center;
   border-radius: 50%;
-  /* transition: all 0.5s ease; */
+  transition: all 0.6s ease;
   opacity: 0.5;
   margin: 25px;
+  cursor: pointer;
 }
 
 .speaker-image.active {
   width: 300px;
   height: 300px;
   opacity: 1;
-  border: 3px solid #ff0000;
+  /* border: 3px solid #ff0000; */
 }
 
 .nav-btn {

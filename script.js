@@ -31,5 +31,12 @@ nextBtn.addEventListener("click", () => {
   currentIndex = (currentIndex + 1) % images.length;
   updateSlider();
 });
+images.forEach((img, index) => {
+  img.addEventListener("click", () => {
+    currentIndex = index;
+    updateSlider();
+  });
+});
 
 updateSlider();
+
