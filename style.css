@@ -18,6 +18,58 @@ body {
   height: 100vh;
 }
 
+.countdown {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  position: absolute;
+  bottom: 30px;
+  /* Adjust as needed */
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.countdownHeading {
+  position: absolute;
+  color: white;
+  bottom: 30px;
+  /* Adjust as needed */
+  left: 20%;
+  transform: translate(-10px, 0px);
+
+}
+
+.time-box {
+  background: linear-gradient(to bottom, #ff0000, #000000);
+  color: white;
+  padding: 5px 15px;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 20px;
+  width: 90px;
+}
+
+@media (max-width:500px) {
+  .time-box {
+    width: 70px;
+    font-size: 15px;
+  }
+
+
+}
+
+.time-box span {
+  display: block;
+}
+
+#days,
+#hours,
+#minutes,
+#seconds {
+  font-size: 30px;
+  font-weight: bold;
+}
+
 @media (max-width:1780px) {
   .home {
     background-size: cover;
@@ -83,6 +135,18 @@ body {
   .body {
     font-size: 16px;
   }
+
+
+}
+
+@media (max-width: 1048px) {
+  .passes {
+    flex-direction: column;
+  }
+
+  .passesHeading {
+    margin-top: 50px
+  }
 }
 
 .parallax-stage {
@@ -102,7 +166,6 @@ body {
   .heading h1 {
     position: relative;
     transform: translateY(-160px);
-    /* Moves it slightly upwards */
   }
 
   .heading h4 {
@@ -174,7 +237,11 @@ body {
 
 @media (max-width: 768px) {
   .heading h1 {
-    font-size: 35px;
+    display: none;
+  }
+
+  .heading h4 {
+    display: none;
   }
 
   .heading h5 {
@@ -247,6 +314,14 @@ body {
 
 .container {
   height: 110px;
+}
+@media (max-width:1300px){
+  .countdownHeading {
+    position: absolute;
+    color: white;
+    bottom: 20%;
+    left: 36%;
+  }
 }
 
 /* Mobile Adjustments */
@@ -446,8 +521,33 @@ body {
   }
 }
 
+@media (max-width: 768px) {
+  .passes {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .passes-info {
+    text-align: center;
+  }
+
+  .passes-info h5 {
+    margin: 10px auto;
+    display: block;
+  }
+
+  .register-btn {
+    font-size: 16px;
+    padding: 8px 16px;
+  }
+}
 
 @media (max-width : 540px) {
+  .time-box {
+    width: 70px;
+    font-size: 15px;
+  }
+
   .home {
     margin-bottom: 0px;
     /* background-position: center ; */
@@ -472,4 +572,58 @@ body {
   .navbar-toggler {
     display: none;
   }
+}
+
+.hero-section {
+  text-align: center;
+  padding: 20px;
+}
+
+.highlight {
+  color: red;
+  font-weight: bold;
+}
+
+.passes {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 50px 20px;
+  flex-wrap: wrap;
+}
+
+.passes-info {
+  max-width: 450px;
+  text-align: left;
+}
+
+.passes-info h5 {
+  margin-left: 20px;
+  list-style-type: disc;
+}
+
+.passes-image {
+  text-align: center;
+}
+
+.passes-image img {
+  width: 70%;
+  max-width: 300px;
+  padding: 10px;
+}
+
+.register-btn {
+  font-size: 18px;
+  padding: 10px 20px;
+  background-color: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.register-btn a {
+  color: white;
+  text-decoration: none;
 }
