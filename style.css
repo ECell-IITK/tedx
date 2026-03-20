@@ -262,7 +262,7 @@ body {
 
 
 .navbar-brand img {
-  height: 100px;
+  height: 80px;
   width: auto;
   position: absolute;
   top: 17px;
@@ -315,7 +315,7 @@ body {
 }
 
 .container {
-  height: 110px;
+  height: 90px;
 }
 @media (max-width:1300px){
   .countdownHeading {
