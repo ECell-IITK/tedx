@@ -262,10 +262,10 @@ body {
 
 
 .navbar-brand img {
-  height: 80px;
+  height: 70px;
   width: auto;
   position: absolute;
-  top: 17px;
+  top: 5px;
   left: 17px;
 }
 
@@ -306,7 +306,7 @@ body {
   color: white;
   text-decoration: none;
   position: absolute;
-  top: 35px;
+  top: 15px;
   right: 20px;
 }
 
@@ -315,7 +315,7 @@ body {
 }
 
 .container {
-  height: 90px;
+  height: 60px;
 }
 @media (max-width:1300px){
   .countdownHeading {
