@@ -1,7 +1,7 @@
 html,
 body {
   margin: 0;
-  padding: 0;
+  padding-top: 35px;
   width: 100%;
   overflow-x: hidden;
   font-family: "Poppins", sans-serif;
@@ -13,7 +13,7 @@ body {
 
 
 .home {
-  background-image: url('web.png');
+  background-image: url('./image/ted_home.png');
   background-size: 100%;
   background-position: center 0px 450px;
   background-repeat: no-repeat;
@@ -75,9 +75,10 @@ body {
 @media (max-width:1780px) {
   .home {
     background-size: cover;
-    background-position: center right;
+    background-position: center;
   }
 }
+
 
 .about {
   background-color: #0c0c0c;
@@ -149,6 +150,12 @@ body {
   .passesHeading {
     margin-top: 50px
   }
+   .home {
+    background-image: url('./image/image.png'); /* 🔥 new image */
+    background-size: cover;
+    background-position: center;
+
+}
 }
 
 .parallax-stage {
@@ -265,7 +272,7 @@ body {
   height: 70px;
   width: auto;
   position: absolute;
-  top: 5px;
+  top: 2px;
   left: 17px;
 }
 
@@ -305,7 +312,7 @@ body {
   font-weight: bold;
   color: white;
   text-decoration: none;
-  position: absolute;
+  /* position: absolute; */
   top: 15px;
   right: 20px;
 }
@@ -324,10 +331,16 @@ body {
     bottom: 20%;
     left: 36%;
   }
+   .home {
+    background-image: url('./image/mobile-home.png'); /* 🔥 new image */
+    background-size: cover;
+    background-position: center;
+
+}
 }
 
 /* Mobile Adjustments */
-@media (max-width: 992px) {
+/* @media (max-width: 992px) {
   .navbar-nav {
     text-align: center;
   }
@@ -339,6 +352,56 @@ body {
 
   .navbar-toggler {
     display: none;
+  } 
+  .navbar-toggler {
+  border-color: white;
+  }
+
+  .navbar-toggler-icon {
+    filter: invert(1);
+  }
+  
+} */
+
+@media (max-width: 992px) {
+
+  /* 🔥 Fix dropdown box */
+  
+
+   .navbar-collapse {
+    background: black !important;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 10px;
+  }
+
+
+
+  /* Stack items vertically */
+  .navbar-nav {
+    text-align: left;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+
+  /* White text */
+  .nav-link {
+    color: white !important;
+  }
+
+  /* Hide desktop button */
+  .btn-tickets {
+    display: none;
+  }
+
+  /* Hamburger style */
+  .navbar-toggler {
+    border-color: white;
+  }
+
+  .navbar-toggler-icon {
+    filter: invert(1);
   }
 }
 
@@ -571,8 +634,15 @@ body {
     padding: 8px;
   }
 
-  .navbar-toggler {
+  /* .navbar-toggler {
     display: none;
+  } */
+  .navbar-toggler {
+    border-color: white;
+  }
+
+  .navbar-toggler-icon {
+    filter: invert(1);
   }
 }
 
