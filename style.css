@@ -331,12 +331,13 @@ body {
     bottom: 20%;
     left: 36%;
   }
-   .home {
+  .home {
     background-image: url('./image/mobile-home.png'); /* 🔥 new image */
     background-size: cover;
     background-position: center;
 
-}
+  }
+
 }
 
 /* Mobile Adjustments */
@@ -403,6 +404,7 @@ body {
   .navbar-toggler-icon {
     filter: invert(1);
   }
+
 }
 
 .footer-container {
