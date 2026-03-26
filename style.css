@@ -9,12 +9,6 @@ body {
   background-color: #f5f5f5;
   color: #222;
 }
-.theme{
-    position: absolute;
-    right: 150px;
-    top: 250px;
-  }
-
 
 .home {
   background-image: url('./image/ted_home.png');
@@ -84,7 +78,7 @@ body {
   .theme{
     position: absolute;
     right: 150px;
-    top: 250px;
+    top: 300px;
   }
 }
 
@@ -165,6 +159,11 @@ body {
     background-position: center;
 
 }
+  .theme{
+      position: absolute;
+      right: 150px;
+      top: 300px;
+    }
 }
 
 .parallax-stage {
@@ -349,9 +348,10 @@ body {
   }
   .theme{
     position: absolute;
-    bottom: 300px;
-    right: 500px;
+    right:40%;
+    top: 600px;
   }
+  
 
 }
 
@@ -390,6 +390,7 @@ body {
     border-radius: 10px;
     padding: 10px;
   }
+  
 
 
 
@@ -419,6 +420,13 @@ body {
   .navbar-toggler-icon {
     filter: invert(1);
   }
+
+
+  .theme{
+      position: absolute;
+      right: 40%;
+      top: 500px;
+    }
 
 }
 
