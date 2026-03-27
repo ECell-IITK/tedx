@@ -49,6 +49,12 @@ body {
   width: 90px;
 }
 
+  .theme{
+    position: absolute;
+    right: 45%;
+    top: 200px;
+  }
+
 @media (max-width:500px) {
   .time-box {
     width: 70px;
@@ -424,8 +430,8 @@ body {
 
   .theme{
       position: absolute;
-      right: 40%;
-      top: 450px;
+      right: 37%;
+      top: 400px;
     }
 
 }
